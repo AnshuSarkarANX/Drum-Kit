@@ -18,31 +18,19 @@ footer {
 }
 
 .w {
-
+  background-image: url("images/crash.png");
 }
-
-.a {
-
+.a{background-image: url("images/kick.png");
 }
-
-.s {
-
+.s {background-image: url("images/snare.png");
 }
-
-.d {
-
+.d {background-image: url("images/tom1.png");
 }
-
-.j {
-
+.j {background-image: url("images/tom2.png");
 }
-
-.k {
-
+.k {background-image: url("images/tom3.png");
 }
-
-.l {
-
+.l {background-image: url("images/tom4.png");
 }
 
 .set {
@@ -53,7 +41,6 @@ footer {
   background-color: red;
   opacity: 0.8;
 }
-
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
@@ -70,7 +57,7 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #F2542D;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
