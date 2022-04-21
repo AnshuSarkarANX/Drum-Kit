@@ -6,8 +6,6 @@
     buttonanime(btntxt);
   }
   );}
-
-
   document.addEventListener('keydown',function(evt){
     sound(evt.key);
     buttonanime(evt.key);
@@ -53,7 +51,6 @@
     var curretKey = document.querySelector("."+ currentKey);
     curretKey.classList.add("pressed");
     setTimeout (function(){
-      curretKey.classList.remove("pressed");,100);
-    }
+      curretKey.classList.remove("pressed");},100);
 
   }
