@@ -3,12 +3,14 @@
    document.querySelectorAll('.drum')[i].addEventListener('click',function () {
     var btntxt = this.textContent;
     sound(btntxt);
+    buttonanime(btntxt);
   }
   );}
 
 
   document.addEventListener('keydown',function(evt){
     sound(evt.key);
+    buttonanime(evt.key);
   });
   function sound(key){
     switch (key) {
@@ -44,5 +46,11 @@
         console.log(key);
 
     }
+
+  }
+
+  function buttonanime(currentKey){
+    var curretKey = document.querySelector("."+ currentKey);
+    curretKey.classList.toggle("pressed");
 
   }
