@@ -51,6 +51,9 @@
 
   function buttonanime(currentKey){
     var curretKey = document.querySelector("."+ currentKey);
-    curretKey.classList.toggle("pressed");
+    curretKey.classList.add("pressed");
+    setTimeout (function(){
+      curretKey.classList.remove("pressed");,100);
+    }
 
   }
