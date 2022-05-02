@@ -10,6 +10,7 @@
     sound(evt.key);
     buttonanime(evt.key);
   });
+// for sounds
   function sound(key){
     switch (key) {
       case 'w':
@@ -46,7 +47,7 @@
     }
 
   }
-
+/*button animation*/
   function buttonanime(currentKey){
     var curretKey = document.querySelector("."+ currentKey);
     curretKey.classList.add("pressed");
