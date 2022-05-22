@@ -4,4 +4,4 @@
 <a herf="https://github.com/AnshuSarkarANX/Drum-Kit.git"><h1>Clone this project</h1></a>
 
 
-Website - anshusarkaranx.github.io/drum-kit/
+<a herf="https://github.com/AnshuSarkarANX/Drum-Kit.git">Website</a>
