@@ -6,6 +6,7 @@
     buttonanime(btntxt);
   }
   );}
+//recognising which key was pressed
   document.addEventListener('keydown',function(evt){
     sound(evt.key);
     buttonanime(evt.key);
